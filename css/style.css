@@ -5,7 +5,7 @@
 }
 header{
     background-color: #00BDFC;
-    position:fixed
+    width: 100%;
 }
 .header_inner{
     display: flex;
@@ -33,7 +33,7 @@ header{
     color: #ffffff;
 }
 .header_link-item{
-    margin-right: 15rem;  
+    margin-right: 15rem;
     margin-top: 1rem;
  
 
