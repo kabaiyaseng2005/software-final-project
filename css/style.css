@@ -4,6 +4,8 @@
     margin: 0;
 }
 header{
+    position: fixed;
+    top: 0px;
     background-color: #00BDFC;
     width: 100%;
 }
@@ -48,9 +50,33 @@ header{
 
 .img-container{
     display: flex;
+    width: 100%;
    
 }
 
 .img-container img{
     width: 100%;
+
+}
+
+section{
+    width: 100%;
+}
+
+
+.city-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.city-image{
+    width: 500px;
+}
+
+.image-text{
+    position: absolute;
+    width: 50%;
+    
 }
