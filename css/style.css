@@ -5,6 +5,7 @@
 }
 header{
     background-color: #00BDFC;
+    width: 100%;
 }
 .header_inner{
     display: flex;
@@ -43,4 +44,13 @@ header{
     padding: 7px;
     text-decoration: none;
     color: #ffffff;
+}
+
+.img-container{
+    display: flex;
+   
+}
+
+.img-container img{
+    width: 100%;
 }
