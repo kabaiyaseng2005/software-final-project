@@ -77,6 +77,11 @@ section{
 
 .image-text{
     position: absolute;
-    width: 50%;
-    
+    width: 25%;
+    background-color: #00BDFC;
+    padding: 3rem;
+}
+.image-text h1,p{
+    text-align: center;
+    color: #ffffff;
 }
