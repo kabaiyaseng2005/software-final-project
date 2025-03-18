@@ -52,6 +52,7 @@ header{
 /* Dropdown styling */
 .menu-link {
     position: relative;
+    color: #ffffff;
 }
 
 .dropdown-content {
@@ -94,7 +95,7 @@ header{
 .img-container {
     display: flex;
     width: 100%;
-    max-width: 1400px;
+   object-fit: fill;
     margin: 0 auto;
     height: 500px; 
 }
@@ -113,7 +114,7 @@ section{
 .city-image-container {
     display: flex;
     position: relative;
-    width: 50%;
+    width: 70%;
     height: 100%;
 }
 .city-image {
@@ -123,8 +124,6 @@ section{
 
 .image-text {
     position: absolute;
-    width: 80%;
-    max-width: 350px;
     background-color: #00BDFC;
     padding: 2rem;
     top: 50%;
@@ -163,4 +162,50 @@ section{
     height: 100%;
     object-fit: cover; 
 
+}
+
+.grid-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    object-fit: cover;
+}
+.support-image{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    transition: filter 1s ease, transform 0.3s ease;
+}
+
+.support-image:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.sign-up-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.sign-up-container h1{
+    text-align: center;
+    color:#03A7FF;
+}
+.h1-size{
+    font-size: 38px;
+}
+
+.signup-btn{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    background-color: #03A7FF;
+    color: #ffffff;
+    border: none;
 }
