@@ -57,10 +57,37 @@ header{
 }
 
 section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    padding-top: 60px;
+    margin-top: 90px ;
+}
+.img-container{
+    width: 100%;
+    height: 300px;    
+    background-position: center; 
+    background-image: url("../picture/visual.jpeg");
 }
 
 .img-content img{
-    width: 1000px;
+    width: 100%;
+    height: 400px ;
 }
+
+.text-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../picture/shvets-production.jpg");
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100vw;  
+    height: 600px; 
+    font-size: 30px;
+}
+
+
