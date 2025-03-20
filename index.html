@@ -5,6 +5,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script>
+        function checkAuthentication() {
+            const isLoggedIn = sessionStorage.getItem("isLoggedIn");
+            if (!isLoggedIn) {
+                window.location.href = "pages/login.html";
+            }
+        }
+        checkAuthentication();
+    </script>
 </head>
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="script.js">
@@ -39,32 +48,7 @@
 
     <section>
         <div class="img-container">
-<<<<<<< HEAD
-            <div class="img-content"><img src="/picture/visual.jpeg" alt=""></div>
-=======
-            <div class="city-image-container">
-                <div class="image-wrapper">
-                    <img src="picture/city.jpeg" alt="" class="city-image" />
-                </div>
-                <div class="image-text">
-                    <h1>Be Supportive and Encouraging</h1>
-                    <p>
-                        Disability is not a barrier, it is a lens through which we see
-                        the world differently, and a testament to the strength of the
-                        human spirit. We can overcome challenges and contribute
-                        meaningfully, just like everyone else. hi"
-                    </p>
-                </div>
-            </div>
-            <div class="disability-image-container">
-                <div class="image-wrapper">
-                    <img src="picture/Disbility.jpg" alt="" />
-                </div>
-                <div class="image-wrapper">
-                    <img src="picture/disbility1.jpg" alt="" />
-                </div>
-            </div>
->>>>>>> 4147ecaa4c5676c54712b2acc97f30edfc3cc5d8
+            <div class="img-content"><img src="picture/visual.jpeg" alt=""></div>
         </div>
 
         <div>
@@ -87,6 +71,8 @@
 </body>
 
 </html>
+
+
 
 <!-- //I lvoe you -->
 
