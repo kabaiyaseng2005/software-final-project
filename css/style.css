@@ -90,4 +90,20 @@ section{
     font-size: 30px;
 }
 
+.options-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 100%;
+}
+.options-buttom{
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: none;
+    background-color: #00BDFC;
+}
+
 
