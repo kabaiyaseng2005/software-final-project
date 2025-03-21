@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Phetsarath OT', Arial, sans-serif;
+}
+body{
+    background-color: #3075AE;
 }
 
 form{
@@ -10,4 +14,39 @@ form{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.login-container{
+    background-color: #ffffff;
+    padding: 150px 100px;
+}
+.login-container h2{
+    text-align: center;
+}
+
+.login-container input{
+    padding: 5px;
+    margin: 5px;
+    border: solid 1px #3075AE ;
+    color: #3075AE;
+} 
+.login-container button{
+    width: 170px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    background-color: #3075AE;
+    color: #ffffff;
+    margin: 5px;
+    box-shadow: 0px 8px 10px rgba(0,0,0,0.2) ;
+}
+
+.forgot-signup{
+    margin-top: 5px;
+}
+
+.login-container a{
+    text-decoration: none;
+    
 }

@@ -37,34 +37,45 @@ nav{
     color: #ffffff;
 }
 
+.nav-right{
+    display: flex;
+    margin-top: 10px;
+    gap: 3px;
+}
 
+
+.logout-botton{
+    padding: 5px;
+    width: 100px;
+    font-weight: bold;
+    color: #3075AE;
+    border: none;
+}
 .selected-lang{
     background-color: #3075AE;
     width: 130px;
     color: #ffffff;
-    padding: 5px;
+    font-size: 16px;
+    font-weight: lighter;
 }
 
 .lang-menu {
     width: 100px;
     text-align: right;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-right: 5rem;
+    margin-right: 35px;
     position: relative;
 }
 .lang-menu .selected-lang {
     display: flex;   
     justify-content: space-between;
-    line-height: 2;
     cursor: pointer;
 }
 .lang-menu .selected-lang:before {
     content: '';
     display: inline-block;
     width: 32px;
-    height: 32px;
-    background-image: url(https://www.countryflags.io/us/flat/32.png);
+    height: 30px;
+    background-image: url('/picture/Flag_of_Laos.svg.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -76,7 +87,7 @@ nav{
     background-color:#57B3FF;
     border: 1px solid #f8f8f8;
     position: absolute;
-    top: 45px;
+    top: 35px;
     right: 0px;
     width: 125px;
     border-radius: 5px;
@@ -109,24 +120,24 @@ nav{
     width: 25px;
     height: 25px;
     vertical-align: middle;
-    margin-right: 10px;
+    margin-right: 5px;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.de:before {
-    background-image: url(https://www.countryflags.io/de/flat/32.png);
+.ch:before {
+    background-image: url(/picture/Flag_of_China.png);
 }
 
 .en:before {
-    background-image: url(https://www.countryflags.io/us/flat/32.png);
+    background-image: url(/picture/Flag_of_the_United_Kingdom.png);
 }
-.fr:before {
-    background-image: url(https://www.countryflags.io/fr/flat/32.png);
+.th:before {
+    background-image: url(/picture/images.png);
 }
 
-.ar:before {
-    background-image: url(https://www.countryflags.io/ae/flat/32.png);
+.ko:before {
+    background-image: url(/picture/Flag_of_South_Korea.png);
 }
 
 
