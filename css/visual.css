@@ -2,20 +2,22 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Phetsarath OT', Arial, sans-serif;
 }
-header{
+nav{
     position: fixed;
     top: 0px;
-    background-color: #00BDFC;
+    background-color: #57B3FF;
     width: 100%;
     z-index: 1000;
 }
 .header_inner{
     display: flex;
     justify-content: space-between;
-    margin-left: 5rem;
+    margin-left: 0rem;
     gap: 20px;
     padding: 10px;
+    padding-right: 50px;
 }
 
 .logo img{
@@ -35,6 +37,7 @@ header{
     font-weight:500;
     color: #ffffff;
 }
+
 .header_link-item{
     margin-right: 15rem;
     margin-top: 1rem;
@@ -43,9 +46,164 @@ header{
 }
 
 .item-link{
-    background-color: #03A7FF;
+    background-color: #57B3FF;
     padding: 7px;
     text-decoration: none;
     color: #ffffff;
+}
+
+.selected-lang{
+    background-color: #3075AE;
+    width: 130px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.lang-menu {
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 5rem;
+    position: relative;
+}
+.lang-menu .selected-lang {
+    display: flex;   
+    justify-content: space-between;
+    line-height: 2;
+    cursor: pointer;
+}
+.lang-menu .selected-lang:before {
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(https://www.countryflags.io/us/flat/32.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lang-menu ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+    background-color:#57B3FF;
+    border: 1px solid #f8f8f8;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    width: 125px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+
+
+.lang-menu ul li {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang-menu ul li a {
+    text-decoration: none;
+    width: 125px;
+    padding: 5px 10px;
+    display: block;
+    color: #ffffff;
+}
+
+.lang-menu ul li:hover {
+    background-color: #3075AE;
+}
+
+.lang-menu ul li a:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.de:before {
+    background-image: url(https://www.countryflags.io/de/flat/32.png);
+}
+
+.en:before {
+    background-image: url(https://www.countryflags.io/us/flat/32.png);
+}
+.fr:before {
+    background-image: url(https://www.countryflags.io/fr/flat/32.png);
+}
+
+.ar:before {
+    background-image: url(https://www.countryflags.io/ae/flat/32.png);
+}
+
+
+.lang-menu:hover ul {
+    display: block;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 90px ;
+}
+.img-container{
+    width: 100%;
+    height: 400px;    
+    background-position: center; 
+    background-image: url("../picture/visual.jpeg");
+}
+
+.img-content img{
+    width: 100%;
+    height: 400px ;
+}
+
+.text-image {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    align-items: center;
+    background-image: url("../picture/shvets-production.jpg");
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100vw;  
+    height: 600px; 
+    font-size: 30px;
+    
+}
+
+.text-image h1{
+    color: #ffffff;
+   
+}
+
+.options-container{
+    display: flex;
+    justify-content:center;
+    gap: 15rem;
+    margin: 20px;
+}
+.options-buttom{
+    padding: 10px;
+    width: 15rem;
+    background-color: #00BDFC;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.options-buttom:hover{
+    background-color: #57B3FF;
 }
 
