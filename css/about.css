@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Phetsarath OT', Arial, sans-serif;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 60px ;
+}
+.main-img img{
+    width: 500px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+
+.text-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container h1{
+    font-family:"Caprasimo", serif !important ;
+    font-weight: 200;
+    font-size: 45px;
+    color: #57B3FF;
+
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(19, 177, 221), 0 0 5px rgb(7, 121, 244);
+}
+hr{
+    width: 99vw;
+    margin-top: 30px;
+}
+
+.about-content{
+    background-color: #57B3FF;
+    padding: 20px;
+    color: #ffffff;
+}
