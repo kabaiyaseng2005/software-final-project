@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>Login Form</title>
   <link rel="stylesheet" href="../css/login_signUp.css">
 </head>
-
 <body>
   <form>
     <div class="login-container">
-      <h2>ເຂົ້າສູ່ລະບົບ</h2>
+      <h2>ເຂົ້າສູ່ລະບົບ</h2>
       <div>
-        <input type="text" id="username" name="username" placeholder="ຊື່ຜູ້ໃຊ້" required />
+        <input type="text" id="username" name="username" placeholder="ຊື່ຜູ້ໃຊ້" required />
       </div>
       <div>
         <input type="password" id="password" name="password" placeholder="ລະຫັດຜ່ານ" required />
@@ -21,41 +19,40 @@
         <label for="remember">ຈື່ຂ້ອຍ</label>
       </div>
       <div>
-        <button type="submit">ເຂົ້າສູ່ລະບົບ</button>
+        <button type="submit">ເຂົ້າສູ່ລະບົບ</button>
       </div>
       <div class="forgot-signup">
         <a href="#">ລຶມລະຫັດຜ່ານ?</a> |
-        <a href="sign_up.html">ລົງຊື່ຜູ້ໃຊ້</a>
+        <a href="sign_up.html">ລົງຊື່ຜູ້ໃຊ້</a>
       </div>
     </div>
   </form>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const loginForm = document.querySelector("form");
-      isLoggedIn
+      
       loginForm.addEventListener("submit", function (event) {
         event.preventDefault();
-
         const username = document.getElementById("username").value.trim();
         const password = document.getElementById("password").value;
         const rememberMe = document.getElementById("remember").checked;
-
+        
         if (username === "") {
           alert("Please enter your username");
           return;
         }
-
+        
         if (password === "") {
           alert("Please enter your password");
           return;
         }
-
+        
         if (rememberMe) {
           localStorage.setItem("rememberedUsername", username);
         } else {
           localStorage.removeItem("rememberedUsername");
         }
-
+        
         if (username === "admin" && password === "123") {
           sessionStorage.setItem("isLoggedIn", "true");
           window.location.href = "home.html";
@@ -63,7 +60,7 @@
           alert("Invalid username or password");
         }
       });
-
+      
       const rememberedUsername = localStorage.getItem("rememberedUsername");
       if (rememberedUsername) {
         document.getElementById("username").value = rememberedUsername;
@@ -72,5 +69,4 @@
     });
   </script>
 </body>
-
 </html>
