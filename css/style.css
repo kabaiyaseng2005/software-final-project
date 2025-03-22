@@ -72,6 +72,9 @@ nav{
     position: relative;
 }
 .lang-menu .selected-lang {
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;   
     justify-content: space-between;
     cursor: pointer;
