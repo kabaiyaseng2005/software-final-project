@@ -52,13 +52,19 @@ nav{
     border: none;
 }
 .selected-lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3075AE;
     width: 130px;
     color: #ffffff;
     font-size: 16px;
     font-weight: lighter;
 }
-
+.laos_flag{
+    width: 28px;
+    
+}
 .lang-menu {
     width: 100px;
     text-align: right;
@@ -71,11 +77,9 @@ nav{
     cursor: pointer;
 }
 .lang-menu .selected-lang:before {
-    content: '';
     display: inline-block;
     width: 32px;
     height: 30px;
-    background-image: url('/picture/Flag_of_Laos.svg.png');
     background-size: contain;
     background-repeat: no-repeat;
 }

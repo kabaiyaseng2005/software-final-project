@@ -17,8 +17,13 @@ form{
 }
 
 .login-container{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
     background-color: #ffffff;
-    padding: 150px 100px;
+    padding: 80px 50px;
+    width: 600px;
 }
 .login-container h2{
     text-align: center;
@@ -29,9 +34,10 @@ form{
     margin: 5px;
     border: solid 1px #3075AE ;
     color: #3075AE;
+    width: 400px;
 } 
 .login-container button{
-    width: 170px;
+    width: 400px;
     border-radius: 20px;
     text-align: center;
     padding: 5px;
@@ -49,4 +55,12 @@ form{
 .login-container a{
     text-decoration: none;
     
+}
+#remember{
+    width: 20px;
+}
+.remember-me{
+    width: 400px;
+    display: flex;
+    justify-content: start ;
 }
