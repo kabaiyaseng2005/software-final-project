@@ -6,28 +6,26 @@
 </head>
 <body>
     <form>
-        <h2>Create Account</h2>
-        <div>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-        </div>
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-        <div>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-        </div>
-        <div>
-            <label for="confirm-password">Confirm Password:</label>
-            <input type="password" id="confirm-password" name="confirm-password" required>
-        </div>
-        <div>
-            <button type="submit">Sign Up</button>
-        </div>
-        <div>
-            <p>Already have an account? <a href="login.html">Login</a></p>
+        <div class="login-container">
+            <h2>ລົງຊື່ຜູ້ໃຊ້</h2>
+            <div>
+                <input type="text" id="username" name="username" placeholder="ຊື່ຜູ້ໃຊ້" required />
+            </div>
+            <div>
+                <input type="email" id="email" name="email" placeholder="ອີເມລ" required />
+            </div>
+            <div>
+                <input type="password" id="password" name="password" placeholder="ລະຫັດຜ່ານ" required />
+            </div>
+            <div>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="ຢືນຢັນລະຫັດຜ່ານ" required />
+            </div>
+            <div>
+                <button type="submit">ລົງທະບຽນ</button>
+            </div>
+            <div class="forgot-signup">
+                <a href="login.html">ມີບັນຊີແລ້ວ? ເຂົ້າສູ່ລະບົບ</a>
+            </div>
         </div>
     </form>
 </body>

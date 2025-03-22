@@ -17,7 +17,7 @@
                 <div class="main-menu">
                     <ul id="menu-main-menu" class="menu">
                         <li class="menu-link" type="none">
-                            <a href="#" onclick="loadPage('home')">ໜ້າຫຼັກ</a>
+                            <a href="#" onclick="loadHomePage()">ໜ້າຫຼັກ</a>
                         </li>
                         <li class="menu-link" type="none">
                             <a href="#" onclick="loadPage('support_organization')">ແຫຼ່ງສະໜັບສະໜູນ</a>
@@ -43,7 +43,7 @@
                     </ul>
                 </div>
                 <div class="logout">
-                    <a href="#"><button class="logout-botton">ອອກຈາກລະບົບ</button></a>
+                    <button class="logout-botton" onclick="confirmLogout()">ອອກຈາກລະບົບ</button>
                 </div>
             </div>
         </div>
@@ -53,9 +53,9 @@
         <div id="content">
             <div class="img-container"></div>
             <div class="options-container">
-                <a href="#" onclick="loadPage('pages/visual_impairment')"><button class="options-buttom">ຜູ້ພິການແມ່ນໃຜ</button></a>
-                <a href="#"><button class="options-buttom">ປະເພດຂອງຜູ້ພິການ</button></a>
-                <a href="#"><button class="options-buttom">ຊ່ວຍເຫຼືອ</button></a>
+                <button class="options-buttom" onclick="loadPage('visual_impairment')">ຜູ້ພິການແມ່ນໃຜ</button>
+                <button class="options-buttom" onclick="loadPage('kind_of_disbled')">ປະເພດຂອງຜູ້ພິການ</button>
+                <button class="options-buttom" onclick="loadPage('donate')">ຊ່ວຍເຫຼືອ</button>
             </div>
             <div class="text-image">
                 <h1>ຮຽນຮູ້ ແລະ ໃຫ້ກຳລັງໃຈ ເພາະຄວາມພິການໄດ້ໃຫ້ພວກເຂົາແຕກຕ່າງ</h1>
@@ -63,17 +63,8 @@
             </div>
         </div>
     </section>
+    <script src="../scripts/script.js"></script>
 
-    <script>
-        function loadPage(page) {
-            fetch(page + '.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('content').innerHTML = data;
-                })
-                .catch(error => console.log('Error loading page:', error));
-        }
-    </script>
 </body>
 
 </html>
