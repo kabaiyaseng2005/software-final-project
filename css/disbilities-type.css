@@ -43,3 +43,12 @@ section{
 .hero-image img{
     width: 300px;
 }
+.btn{
+    padding: 3px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #259dff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}

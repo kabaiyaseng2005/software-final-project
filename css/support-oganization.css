@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Phetsarath OT', Arial, sans-serif;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 60px ;
+}
+.support-container{
+    background-color: #57B3FF;
+    border-radius: 10px;
+}
+.support-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 20px;
+
+
+}
+.support-center img{
+    width: 300px;
+}
+.description p{
+    width: 500px;
+}
+.center-grid{
+   display: grid;
+   grid-template-columns: 2fr 2fr;
+
+}
+.card-img img{
+    width: 200px;
+    object-fit: cover;
+}
