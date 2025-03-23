@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Phetsarath OT', Arial, sans-serif;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.card-grid {
+    width: 100%;
+    margin-top: 90px;
+}
+
+.center-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 8px rgba(22, 97, 7, 0.1);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 1rem;
+    background-color: #3075AE;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    margin-top: -1rem;
+    color: #fff;
+
+}
+
+.card-description {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.card-button {
+    background-color: #57B3FF;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-left: 200px;
+
+}
+
+.card-button:hover {
+    background-color: #022f60;
+}
