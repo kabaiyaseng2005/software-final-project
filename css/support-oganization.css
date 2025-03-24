@@ -26,9 +26,28 @@ section{
 .support-center img{
     width: 300px;
 }
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: white;
+}
+.description h1{
+    font-size: 35px;
+}
 .description p{
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 500px;
 }
+.description span{
+    margin-bottom: 10px;
+}
+.location{
+    margin-bottom: 25px;
+}
+
 .center-grid {
     display: flex;
  }
@@ -44,4 +63,8 @@ section{
     object-fit: cover; 
 
  }
- 
+
+ .location a, .icon a i{
+    color: white;
+    margin: 2px;
+ }
