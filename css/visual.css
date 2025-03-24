@@ -92,14 +92,19 @@ section{
 }
 
 .text-image h1{
-    margin-bottom: 150px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     text-align: center;
     color: #ffffff;
+    font-size: 70px;
    
 }
 
 .text-image p{
     color: #ffffff;
+    font-size: 35px;
+    width: 1000px;
+    text-align: center;
 }
 
 .options-container{

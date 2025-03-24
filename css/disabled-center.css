@@ -7,8 +7,8 @@
 
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -20,7 +20,7 @@
 .center-card {
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 5px 8px rgba(22, 97, 7, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .card-image {
@@ -50,6 +50,9 @@
     color: #fff;
     margin-top: 8px;
 }
+.card-description span{
+    margin-top: 10px;
+}
 
 .card-button {
     background-color: #57B3FF;
@@ -58,7 +61,8 @@
     border-radius: 15px;
     text-decoration: none;
     font-size: 0.9rem;
-    margin-left: 200px;
+    margin-left: 300px;
+    margin-bottom: 10px;
 
 }
 

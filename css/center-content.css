@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Phetsarath OT', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 60px ;
+}
+
+.content{
+    display: flex;
+    padding: 30px;
+}
+.image {
+    display: flex;
+ }
+ .card-image-container{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .card-img img {
+    display: flex;
+    width: 400px;
+    height: 250px; 
+    object-fit: cover; 
+
+ }
+
+ .contact-container{
+    background-color: #A9BDCD;
+ }
+
+ .contact-content{
+    padding: 30px;
+ }
