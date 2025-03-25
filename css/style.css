@@ -179,7 +179,9 @@ section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../picture/shvets-production.jpg");
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../picture/shvets-production.jpg");
     background-size: cover;  
     background-position: center; 
     background-repeat: no-repeat; 

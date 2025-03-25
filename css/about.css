@@ -46,6 +46,8 @@ hr{
     background-color: #57B3FF;
     padding: 20px;
     color: #ffffff;
+    font-size: large;
+    text-indent: 3rem;
 }
 
 .about-content p{
