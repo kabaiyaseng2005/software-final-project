@@ -37,9 +37,13 @@ nav{
     color: #ffffff;
 }
 
+.menu-link{
+    font-size: 20px;
+}
+
 .nav-right{
     display: flex;
-    margin-top: 10px;
+    margin-top: 18px;
     gap: 3px;
 }
 

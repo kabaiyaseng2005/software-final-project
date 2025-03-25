@@ -94,13 +94,8 @@ section{
 }
 
 .text-image h1{
-<<<<<<< HEAD
-    margin-top: 5px;
-    margin-bottom: 10px;
-=======
     font-size: 50px;
     margin-bottom: 20px;
->>>>>>> 1f5c72a19a081ee8ca509d946c1763620ea6d384
     text-align: center;
     color: #ffffff;
     font-size: 70px;
@@ -109,14 +104,9 @@ section{
 
 .text-image p{
     color: #ffffff;
-<<<<<<< HEAD
     font-size: 35px;
     width: 1000px;
     text-align: center;
-=======
-    margin-left: 50px;
-    margin-right: 50px;
->>>>>>> 1f5c72a19a081ee8ca509d946c1763620ea6d384
 }
 
 .options-container{
