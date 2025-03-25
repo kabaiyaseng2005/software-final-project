@@ -1,67 +1,76 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Phetsarath OT', Arial, sans-serif;
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Phetsarath OT', Arial, sans-serif;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 60px ;
-}
-
-.content{
-    display: flex;
-    padding: 30px;
-}
-.image {
-    display: flex;
- }
- .card-image-container{
-    display: flex;
-    flex-direction: column;
- }
- 
- .about-content h1{
-   color: #57B3FF;
-   ;
- }
- .card-img img {
-    display: flex;
-    width: 400px;
-    height: 250px; 
-    object-fit: cover; 
-
- }
-
- .contact-container{
-   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../picture/center-2.jpg);
-   object-fit:cover ;
-  
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 1520px; 
- }
-
-.contact-content{
    display: flex;
-   justify-content:space-around;
-   padding: 30px;
-   
+   flex-direction: column;
+   width: 100%;
+   margin-top: 60px;
 }
 
-.contact-span{
+.about-content p {
+   font-size: 30px;
+   margin-top: 5px;
+}
+
+.content {
+   display: flex;
+   padding: 30px;
+}
+
+.image {
+   display: flex;
+}
+
+.card-image-container {
+   display: flex;
+   flex-direction: column;
+}
+
+.about-content h1 {
+   color: #57B3FF;
+   font-size: 50px;
+   margin-top: 50px;
+}
+
+.card-img img {
+   display: flex;
+   width: 400px;
+   height: 250px;
+   object-fit: cover;
+
+}
+
+.contact-container {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../picture/center-2.jpg);
+   object-fit: cover;
+
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 1520px;
+}
+
+.contact-content {
+   display: flex;
+   justify-content: space-around;
+   padding: 30px;
+
+}
+
+.contact-span {
    margin-top: 30px;
    display: flex;
    flex-direction: column;
    font-size: 35px;
    color: #fff;
-   
+
 }
 
-.contact-span a{
+.contact-span a {
    font-size: 20px;
    padding: 5px;
    background-color: #57B3FF;
@@ -69,5 +78,10 @@
    text-decoration: none;
    color: #fff;
    text-align: center;
-   
+
+}
+
+.contact-span a:hover {
+   background-color: #068efd;
+   font-size: 25px;
 }

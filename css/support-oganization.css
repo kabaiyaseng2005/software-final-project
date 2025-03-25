@@ -1,23 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Phetsarath OT', Arial, sans-serif;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 60px ;
+    margin-top: 60px;
 }
-.support-container{
+
+.support-container {
     background-color: #57B3FF;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.support-menu{
+
+.support-menu {
     display: flex;
     justify-content: space-between;
     padding: 30px;
@@ -25,48 +27,56 @@ section{
 
 
 }
-.support-center img{
+
+.support-center img {
     width: 300px;
 }
-.description{
+
+.description {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
     color: white;
 }
-.description h1{
+
+.description h1 {
     font-size: 35px;
 }
-.description p{
+
+.description p {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 500px;
 }
-.description span{
+
+.description span {
     margin-bottom: 10px;
 }
-.location{
+
+.location {
     margin-bottom: 25px;
 }
 
 .center-grid {
     display: flex;
- }
- .card-image-container{
+}
+
+.card-image-container {
     display: flex;
     flex-direction: column;
- }
- 
- .card-img img {
+}
+
+.card-img img {
     display: flex;
     width: 200px;
-    height: 150px; 
-    object-fit: cover; 
+    height: 150px;
+    object-fit: cover;
 
- }
+}
 
- .location a, .icon a i{
+.location a,
+.icon a i {
     color: white;
     margin: 2px;
- }
+}
