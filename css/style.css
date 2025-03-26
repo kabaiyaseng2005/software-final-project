@@ -4,14 +4,15 @@
     margin: 0;
     font-family: 'Phetsarath OT', Arial, sans-serif;
 }
-nav{
+nav {
     position: fixed;
     top: 0px;
     background-color: #57B3FF;
     width: 100%;
     z-index: 1000;
 }
-.header_inner{
+
+.header_inner {
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -19,34 +20,50 @@ nav{
     padding-right: 50px;
 }
 
-.logo img{
+.logo img {
     object-fit: cover;
     width: 100px;
 }
 
-.menu{
+.menu {
     padding-top: 1rem;
     display: flex;
     gap: 5rem;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     font-size: larger;
-    font-weight:500;
+    font-weight: 500;
     color: #ffffff;
+    position: relative;
+    padding-bottom: 5px;
 }
 
-.menu-link{
+.menu a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.3s ease;
+}
+
+.menu a.active::after {
+    width: 100%;
+}
+
+.menu-link {
     font-size: 20px;
 }
 
-.nav-right{
+.nav-right {
     display: flex;
     margin-top: 18px;
     gap: 3px;
 }
-
 
 .logout-botton{
     padding: 5px;
