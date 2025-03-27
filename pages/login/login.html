@@ -2,7 +2,8 @@
 <html>
 <head>
   <title>Login Form</title>
-  <link rel="stylesheet" href="../css/login_signUp.css">
+  <link rel="stylesheet" href="../../css/login_signUp.css">
+  <link rel="stylesheet" href="../home/home.html">
 </head>
 <body>
 
@@ -52,7 +53,7 @@
 
         if (username === "admin" && password === "123") {
           sessionStorage.setItem("isLoggedIn", "true");
-          window.location.href = "home.html";
+          window.location.href = "../home/home.html";
         } else {
           alert("Invalid username or password");
         }

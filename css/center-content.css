@@ -78,10 +78,18 @@
    text-decoration: none;
    color: #fff;
    text-align: center;
-
+   transition: 0.1s;
 }
 
 .contact-span a:hover {
    background-color: #068efd;
    font-size: 25px;
+}
+
+.location iframe{
+   transition: 0.3s;
+}
+
+.location iframe:hover{
+   width: 600px;
 }

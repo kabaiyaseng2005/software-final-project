@@ -41,7 +41,7 @@ function confirmLogout() {
     const confirmation = confirm("ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການອອກຈາກລະບົບ?");
     if (confirmation) {
         sessionStorage.removeItem("isLoggedIn");
-        window.location.href = "login.html";
+        window.location.href = "/pages/login/login.html";
     }
 }
 
